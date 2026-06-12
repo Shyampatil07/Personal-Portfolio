@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Button from '@mui/material/Button';
 import profilePic from "../assets/ShyamLade.png";
 import { FaDownload } from "react-icons/fa";
-import resume from "../assets/ShyamResumeJava.pdf";
+import resume from "../assets/ShyamResume1.pdf";
 import { Spotlight } from "./Spotlight.jsx";
 import { FlipWords } from "./Flip.jsx";
 import { ButtonsCard } from "./Buttons.jsx";
@@ -62,7 +62,7 @@ const Hero = () => {
             <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <a
                 href={resume}
-                download="Shyam_Resume.pdf"
+                download="ShyamResume1.pdf"
                 style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}
               >
                 <FaDownload className="pr-1 text-neutral-500" />
