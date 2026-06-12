@@ -36,29 +36,32 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "Shyam Video Call",
-    image: project1,
-    description:
-      "Engineered a robust chatting platform tailored specifically for BIT Mesra students, ensuring efficient data handling and real-time communication.",
-    technologies: ["Tailwind", "HTML", "React", "MongoDB", "Javascript", "Node.js", "Socket.io", "JWT"],
-  },
-  {
-    title: "Voyage Villas",
-    image: project2,
-    description:
-      "Architected and executed the Voyage Villas travel booking website, achieving a 40% boost in overall performance and slashing page load times by 50% through advanced optimization techniques and responsive design practices.",
-    technologies: ["HTML", "CSS", "Javascript", "EJS", "Passport", "Express.js", "MongoDB", "Node.js"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "Tailwind", "React"],
-  },
-];
+  export const PROJECTS = [
+    {
+      title: "Shyam Video Call",
+      image: project1,
+      url: "https://shyam-video-call.onrender.com",
+      description:
+        "Engineered a robust chatting platform tailored specifically for BIT Mesra students, ensuring efficient data handling and real-time communication.",
+      technologies: ["Tailwind", "HTML", "React", "MongoDB", "Javascript", "Node.js", "Socket.io", "JWT"],
+    },
+    {
+      title: "Voyage Villas",
+      image: project2,
+      url: "https://airbnb-gvx3.onrender.com",
+      description:
+        "Architected and executed the Voyage Villas travel booking website, achieving a 40% boost in overall performance and slashing page load times by 50% through advanced optimization techniques and responsive design practices.",
+      technologies: ["HTML", "CSS", "Javascript", "EJS", "Passport", "Express.js", "MongoDB", "Node.js"],
+    },
+    {
+      title: "Portfolio Website",
+      image: project3,
+      url: "https://personal-portfolio-delta-indol.vercel.app/",
+      description:
+        "A personal portfolio website showcasing projects, skills, and contact information.",
+      technologies: ["HTML", "Tailwind", "React"],
+    },
+  ];
 
 export const CONTACT = {
   address: "Akurdi, Pune, Maharashtra, India ",
